@@ -101,7 +101,7 @@ class secure_linux_cis::redhat7 (
   include ::secure_linux_cis::redhat7::cis_1_7_1_4
   # include ::secure_linux_cis::redhat7::cis_1_7_1_5
   # include ::secure_linux_cis::redhat7::cis_1_7_1_6
-  include ::secure_linux_cis::redhat7::cis_1_7_2
+  # include ::secure_linux_cis::redhat7::cis_1_7_2
 
   include ::secure_linux_cis::redhat7::cis_1_8
 
@@ -280,7 +280,7 @@ class secure_linux_cis::redhat7 (
   include ::secure_linux_cis::redhat7::cis_5_2_1
   include ::secure_linux_cis::redhat7::cis_5_2_2
   include ::secure_linux_cis::redhat7::cis_5_2_3
-  include ::secure_linux_cis::redhat7::cis_5_2_4
+  # include ::secure_linux_cis::redhat7::cis_5_2_4
 
   class { '::secure_linux_cis::redhat7::cis_5_2_5':
     max_auth_tries => $max_auth_tries,
